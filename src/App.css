@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #043f58;
+}
+.container{
+  width: 450px;
+  height: auto;
+  padding: 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+}
+h1{
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 2px;
+  padding: 5px;
+  margin-bottom: 20px;
+  color: rgb(51, 118, 186);
+}
+
+.input-container{
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-container label{
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+.input-container select, .input-container input{
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.input-container select:focus, .input-container input:focus{
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+.result{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #186ea4;
+  margin-top: 20px;
+  border: 1px solid #007bff;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #e9f5ff;
+}
+.designed{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 10px;
+  color: #666666;
+}
+
+@media (max-width: 500px){
+  .container{
+    width: 90%;
+    padding: 15px;
+    margin-left: 20px;
+  }
+  
+}

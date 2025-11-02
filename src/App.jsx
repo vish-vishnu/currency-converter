@@ -132,9 +132,9 @@ function App() {
           </select>
         </div>
         <div className="result">
-          <p>{amount} {fromCurrency} is Eqal to {result} {toCurrency}</p>
+          <p>{amount} {fromCurrency} is Equal to {result} {toCurrency}</p>
         </div>
-        <p className='designed'>desigined by Vishnu</p>
+        <p className='designed'>designed by Vishnu</p>
       </div>
     </>
   )
